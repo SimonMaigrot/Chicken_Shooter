@@ -145,7 +145,7 @@ ak_rect.y = 365
 ak = False
 
 # Argent
-argent = 1000   
+argent = 0   
 
 dollar_image = pygame.image.load("assets/dollar.png")
 dollar_image = pygame.transform.scale(dollar_image, (123, 123))
@@ -161,10 +161,6 @@ shop_rect.y = 860
 
 price = pygame.image.load("assets/dollar.png")
 price = pygame.transform.scale(price, (50, 50))
-
-buy = pygame.image.load("assets/buy.png")
-buy = pygame.transform.scale(buy, (100, 60))
-buy_rect = buy.get_rect()
 
 price_1 = 300
 
